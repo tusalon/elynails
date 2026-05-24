@@ -1,6 +1,6 @@
 // sw.js - Service Worker para ElyNails
 
-const CACHE_NAME = 'elynails-v29';
+const CACHE_NAME = 'elynails-v25';
 const urlsToCache = [
   '/elynails/',
   '/elynails/index.html',
