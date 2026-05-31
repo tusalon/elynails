@@ -1,6 +1,6 @@
 // sw.js - Service Worker para ElyNails
 
-const CACHE_NAME = 'elynails-v29';
+const CACHE_NAME = 'elynails-v47';
 const urlsToCache = [
   '/elynails/',
   '/elynails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/elynails/icons/icon-152x152.png',
   '/elynails/icons/icon-192x192.png',
   '/elynails/icons/icon-384x384.png',
-  '/elynails/icons/icon-512x512.png'
+  '/elynails/icons/icon-512x512.png',
+  '/elynails/vendor/react.production.min.js',
+  '/elynails/vendor/react-dom.production.min.js',
+  '/elynails/vendor/babel.min.js',
+  '/elynails/vendor/bcrypt.min.js',
+  '/elynails/vendor/tailwind-browser.js',
+  '/elynails/vendor/lucide/lucide.css',
+  '/elynails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
